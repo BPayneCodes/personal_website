@@ -1,0 +1,131 @@
+
+body {
+    text-align:center;
+    font-family: "Merriweather", serif;
+    color: #40514e;
+    margin:0px;
+}
+
+.content {
+    background-color:rgb(240, 237, 237);
+}
+
+.top-container {
+    position:relative;
+    background-color: #312d25 ;
+    padding-top:100px;
+    
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 50px auto 0 auto;
+    font-family: "Playwrite Nl", cursive;
+    color:rgb(173, 173, 173);
+    
+}
+
+h2 {
+    color:rgb(173, 173, 173);
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.aspiring {
+    font-style:italic;
+    text-decoration:underline;
+}
+
+.cloud {
+    position:absolute;
+    right:200px;
+    top:50px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+.facebook {
+    
+    width:250px;
+    border-radius:50%;
+}
+
+.intro {
+    font-size:1.3rem;
+    width: 30%;
+    margin: auto;
+    line-height:2rem;
+}
+
+.skills {
+    padding-top:150px;
+}
+
+.greet {
+    padding-top:100px;
+}
+
+.parent {
+    display:grid;
+    grid-template-columns: 0.6fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width:50%;
+    margin:100px auto 0 auto;
+    text-align:left;
+    row-gap:2rem;
+    line-height:2rem;
+}
+
+hr {
+    display:none;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+    
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #312d25;
+    padding:50px 0 20px;
+}
+
+.footer-link {
+    color:white;
+}
+
+.copyright {
+    color:white;
+}
+
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+
+
+
